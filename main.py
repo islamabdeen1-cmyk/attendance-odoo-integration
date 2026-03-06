@@ -12,10 +12,10 @@ DEVICE_IP = '192.168.6.251'
 LAST_SENT_FILE = r"C:\AttendanceApp\last_sent.txt"
 PENDING_FILE = r"C:\AttendanceApp\pending_logs.json"
 SLEEP_INTERVAL = 600  # كل 10 دقايق
-odoo_url = "https://poserp.nohapharmacy.com"
-db = "live"
-login = "admin"
-password = "Noha@1020"
+odoo_url = "URL"
+db = "DataBase"
+login = "Username"
+password = "Password"
 
 # ---------------- دوال أساسية ----------------
 def authenticate():
@@ -160,3 +160,4 @@ while True:
         print("Error:", e)
 
     time.sleep(SLEEP_INTERVAL)
+
